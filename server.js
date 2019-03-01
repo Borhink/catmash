@@ -12,5 +12,6 @@ app.use(express.static('public'));
 
 // Routing
 require('./routing/home');
+require('./routing/vote');
 
 app.listen(8080);
