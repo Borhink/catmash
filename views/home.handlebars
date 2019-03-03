@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Example App</title>
-</head>
-<body>
- 
-    {{{cats}}}
- 
-</body>
-</html>
+<div id="images">
+{{#each cats}}
+    <input name="submit" type="image" class="voteimage" src="{{url}}">
+{{/each}}
+</div>
