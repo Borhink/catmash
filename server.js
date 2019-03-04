@@ -28,6 +28,7 @@ app.use(express.static('public/css'));
 // Routing
 require('./routing/home');
 require('./routing/vote');
+require('./routing/gallery');
 
 app.get('/', function(req, res) {
     res.redirect('/home');

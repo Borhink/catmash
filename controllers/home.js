@@ -1,7 +1,13 @@
 exports.index = function (req, res) {
     const getCats = function (data) {
         return data.filter(function(cat){return cat.voted===false})
-            .sort(function(a, b){return b.votes < a.votes})
+            .sort(function(a, b) {
+                if (a.votes < b.votes)
+                    return -1;
+                if (a.votes > b.votes)
+                    return 1;
+                return 0;
+            })
         ;
     };
 

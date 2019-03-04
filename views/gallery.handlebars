@@ -1,0 +1,12 @@
+<div>
+    <a href="/home" target="_self">Home</a>
+    <h2>Here are the cutest cats !</h2>
+    <ul class="item">
+    {{#each cats}}
+            <div class="container">
+                <img class="galeryimage" src="{{url}}">
+                <div class="scoretext">{{votes}} ♥</div>
+            </div>
+    {{/each}}
+    </ul>
+</div>

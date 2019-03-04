@@ -1,9 +1,8 @@
 <div id="images">
-{{!-- {{#each cats}} --}}
+    <a href="/gallery" target="_self">Gallery</a>
     <h2>Click on the cutest !</h2>
     <input type="image" class="voteimage" src="{{cat1.url}}" onclick="vote('{{cat1.id}}', '{{cat2.id}}');">
     <input type="image" class="voteimage" src="{{cat2.url}}" onclick="vote('{{cat2.id}}', '{{cat1.id}}');">
-{{!-- {{/each}} --}}
 </div>
 
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>

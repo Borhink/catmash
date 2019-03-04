@@ -1,9 +1,34 @@
+ul.items {
+  text-align: center;
+  list-style-type: none;
+}
+
 .voteimage {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.container {
+  position: relative;
+}
+.galeryimage {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.scoretext {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: pink;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px palevioletred;
 }
 
 #images{
-   text-align:center;
+  text-align:center;
 }
