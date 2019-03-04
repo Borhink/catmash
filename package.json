@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "npm install; node server.js"
+    "start": "node server.js"
   },
   "main": "server.js",
   "devDependencies": {
